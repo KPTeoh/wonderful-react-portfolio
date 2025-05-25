@@ -26,6 +26,11 @@ const skills = [
   { name: "Docker", category: "tools" },
   { name: "Figma", category: "tools" },
   { name: "VS Code", category: "tools" },
+  { name: "Postman", category: "tools" },
+  { name: "HTTPie", category: "tools" },
+  { name: "Supabase", category: "tools" },
+  { name: "Firebase", category: "tools" },
+  { name: "Vercel", category: "tools" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];

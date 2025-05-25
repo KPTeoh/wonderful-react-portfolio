@@ -11,8 +11,18 @@ const projects = [
     demoUrl: "#",
     githubUrl: "#",
   },
-  {
+    {
     id: 2,
+    title: "Social Media App",
+    description:
+      "A web application that allows users to connect with others, share information, and engage in social interactions through various online platforms",
+    image: "/projects/social-media-page.png",
+    tags: ["TypeScript", "React", "Supabase", "TailwindCSS"],
+    demoUrl: "https://social-media-olive-tau.vercel.app/",
+    githubUrl: "https://github.com/KPTeoh/social-media",
+  },
+  {
+    id: 3,
     title: "Admin Analytics Dashboard",
     description:
       "Interactive analytics dashboard with data visualization and filtering capabilities.",
@@ -22,14 +32,14 @@ const projects = [
     githubUrl: "https://github.com/KPTeoh/admin-dashboard",
   },
   {
-    id: 3,
+    id: 4,
     title: "Pawtograph",
     description:
       "A website dedicated to sharing and celebrating dog pictures, creating a community of dog enthusiasts.",
-    image: "/projects/project3.png",
+    image: "/projects/coming-soon.jpg",
     tags: ["Nextjs", "Auth.js", "PostgreSQL", "Prisma"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/KPTeoh/pawtograph",
   },
 ];
 
